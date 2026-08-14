@@ -12,7 +12,7 @@ EMAIL_DESTINATAIRE = "larrouza@gmail.com"
 # Récupère le mot de passe depuis les "Secrets" GitHub (ne le tape pas ici !)
 rqyy xgme cijo woju = os.environ.get("EMAIL_PASSWORD")
 
-ACTIONS = ["NVDA", "AIR.PA", "SAF.PA", "STMP.PA"]
+ACTIONS = ["NVDA", "AIR.PA", "DSY.PA", "STMP.PA"]
 
 def envoyer_email(sujet, message):
     try:
